@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'AZURE'}
+    agent {label 'UBUNTU'}
     stages {
         stage('Source'){
             steps {
